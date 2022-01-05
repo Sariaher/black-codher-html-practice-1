@@ -1,0 +1,39 @@
+body {
+    font-family: 'Cormorant Garamond', serif; 
+    background-color:#3D3B8E ; 
+}
+
+h2 { 
+    font-size: 20px ;
+}
+
+@media (min-width: 400px) {
+    h2 
+    {
+    font-size: 25px;
+
+    }
+}
+
+.container
+ {
+    display: grid;
+  
+    grid-template-columns: auto 500px;
+grid-template-rows: auto auto;
+gap:20px;
+
+ }
+
+ .quotestyle
+ {
+    background-color:rgb(71, 255, 178);
+     height:70px;
+     grid-column-start: 1;
+ }
+ img
+ {
+     grid-column-end: 2;
+ }
+
+ }
